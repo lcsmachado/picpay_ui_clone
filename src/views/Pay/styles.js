@@ -17,8 +17,8 @@ export const Header = styled.View`
 
 export const HeaderTitle = styled.Text`
   color: #FFF
-  font-size: 32px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: bold;
 `;
 
 export const TransactionsContainer = styled.ScrollView.attrs(() => ({
