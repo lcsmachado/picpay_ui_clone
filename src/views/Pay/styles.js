@@ -1,9 +1,9 @@
-import styled from 'styled-components/native';
+import styled from "styled-components/native";
 
 export const Container = styled.ScrollView``;
 
 export const Wrapper = styled.SafeAreaView`
-  backgroundColor: #000;
+  background: #000;
   flex: 1;
 `;
 
@@ -16,7 +16,7 @@ export const Header = styled.View`
 `;
 
 export const HeaderTitle = styled.Text`
-  color: #FFF
+  color: #FFF;
   font-size: 20px;
   font-weight: bold;
 `;
@@ -26,7 +26,7 @@ export const TransactionsContainer = styled.ScrollView.attrs(() => ({
   showsHorizontalScrollIndicator: false,
   contentContainerStyle: {
     alignItems: "center",
-    justifyContent: "space-between"
+    justifyContent: "space-between",
   },
 }))`
   margin-top: 25px;
@@ -45,7 +45,7 @@ export const Transaction = styled.TouchableOpacity`
 `;
 
 export const TransactionTitle = styled.Text`
-  color: #FFF
+  color: #FFF;
   font-size: 14px;
 `;
 
@@ -64,13 +64,13 @@ export const StoresDetails = styled.View`
 `;
 
 export const StoresTitle = styled.Text`
-  color: #FFF
+  color: #fff;
   font-size: 16px;
   font-weight: bold;
 `;
 
 export const StoresDescription = styled.Text`
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: bold;
 `;
@@ -90,13 +90,13 @@ export const NearestLocationsDetails = styled.View`
 `;
 
 export const NearestLocationsTitle = styled.Text`
-  color: #FFF
+  color: #FFF;
   font-size: 16px;
   font-weight: bold;
 `;
 
 export const NearestLocationsDescription = styled.Text`
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: bold;
 `;
